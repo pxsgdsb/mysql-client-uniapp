@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addDb/addDb",
+    "pages/protocol/protocol",
+    "pages/dbTableList/dbTableList",
+    "pages/tableView/tableView"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "MySQL客户端",
+    "navigationBarBackgroundColor": "#143434",
+    "backgroundColor": "#143434"
+  },
+  "usingComponents": {}
+}

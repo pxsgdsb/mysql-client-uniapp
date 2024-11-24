@@ -1,0 +1,64 @@
+.dbTableList {
+  padding: 25rpx;
+}
+.dbTableList .hearder {
+  font-size: 35rpx;
+}
+.dbTableList .db_box {
+  border-radius: 15px;
+}
+.dbTableList .db_box .db_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25rpx;
+  background: #24504d;
+  overflow: hidden;
+}
+.dbTableList .db_box .db_item:active {
+  background-color: #1d4e4e;
+}
+.dbTableList .db_box .db_item .tb_content {
+  padding: 20rpx 25rpx;
+  background-color: #1b4747;
+  box-shadow: 1px 1px 5px #123131;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dbTableList .db_box .db_item .tb_content:active {
+  background-color: #1d4e4e;
+}
+.dbTableList .db_box .db_item .tb_content .name {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.dbTableList .db_box .db_item .tb_content .bottom {
+  color: #d1d1d1;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.dbTableList .db_box .db_item .tb_size {
+  border-radius: 15rpx;
+  font-size: 26rpx;
+  color: #fff;
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dbTableList .db_box .db_item .tb_size .rows {
+  margin-bottom: 10rpx;
+}
+

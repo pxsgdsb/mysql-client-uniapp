@@ -1,0 +1,118 @@
+.tableView {
+  padding: 25rpx;
+}
+.tableView .pass {
+  height: 130rpx;
+}
+.tableView .uni-padding-wrap {
+  margin-bottom: 30rpx;
+  padding: 25rpx;
+  background: #143434;
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 1px 1px 5px #0f1f1f;
+}
+.tableView .px-pagination {
+  margin-top: 30rpx;
+}
+.tableView .content_item {
+  margin-bottom: 30rpx;
+}
+.tableView .content_item .refresh {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20rpx;
+  color: #fff;
+  text-decoration: underline;
+}
+.tableView .textarea_box {
+  width: 100%;
+  border: 1px #2a6f6f solid;
+  border-radius: 15rpx;
+  position: relative;
+}
+.tableView .textarea_box textarea {
+  padding: 20rpx 3% 70rpx 3%;
+  width: 94%;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 28rpx;
+  line-height: 1.3;
+}
+.tableView .textarea_box textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.tableView .textarea_box textarea::placeholder {
+  color: #ffffff;
+}
+.tableView .textarea_box .textarea_height {
+  height: 70vh !important;
+}
+.tableView .textarea_box .icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10rpx;
+}
+.tableView .footer_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.tableView .footer_btn view {
+  border-radius: 10rpx;
+  text-align: center;
+  padding: 13rpx 23rpx;
+  letter-spacing: 2px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 25rpx;
+}
+.tableView .footer_btn .running {
+  background-color: #1c9464;
+  border: 1px solid #1c9464;
+  color: #fff;
+  margin-left: auto;
+}
+.tableView .footer_btn .running:active {
+  background-color: #187f56;
+}
+.tableView .footer_btn .common,
+.tableView .footer_btn .clear {
+  color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  margin-right: auto;
+  margin-right: 10rpx;
+}
+.tableView .footer_btn .common:active,
+.tableView .footer_btn .clear:active {
+  background-color: #1e5a4d;
+}
+.tableView .sql_show {
+  margin: 0 0 25rpx 0;
+  color: #fff;
+  border-radius: 10rpx;
+  background-color: #149B7A;
+  position: relative;
+}
+.tableView .sql_show .sql_content {
+  font-size: 26rpx;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 20rpx 60rpx 20rpx 20rpx;
+}
+.tableView .sql_show .icon {
+  position: absolute;
+  right: 10rpx;
+  bottom: 1%;
+  width: 60rpx;
+  height: 60rpx;
+}
+

@@ -1,0 +1,35 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path" : "pages/addDb/addDb",
+			"style" : 
+			{
+				"navigationBarTitleText" : "创建数据库连接"
+			}
+		},
+		{
+			"path": "pages/protocol/protocol",
+			"style": {
+				"navigationBarTitleText": "免责声明"
+			}
+		}
+		,
+		{
+			"path": "pages/dbTableList/dbTableList"
+		}
+		,
+		{
+			"path": "pages/tableView/tableView"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "MySQL客户端",
+		"navigationBarBackgroundColor": "#143434",
+		"backgroundColor": "#143434"
+	},
+	"uniIdRouter": {}
+}

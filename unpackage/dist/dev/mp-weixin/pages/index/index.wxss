@@ -1,0 +1,103 @@
+.index.data-v-57280228 {
+  padding: 25rpx;
+}
+.index .db_box.data-v-57280228 {
+  border: 1px solid #2a6f6f;
+  border-radius: 15px;
+  padding: 10rpx 25rpx;
+}
+.index .db_box .db_item.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  padding: 22rpx 15rpx 22rpx 10rpx;
+  border-bottom: 1px solid #2a6f6f;
+}
+.index .db_box .db_item.data-v-57280228:last-child {
+  border-bottom: none;
+}
+.index .db_box .db_item.data-v-57280228:active {
+  background-color: #1b4747;
+}
+.index .db_box .db_item .db_icon.data-v-57280228 {
+  border-radius: 15rpx;
+  width: 90rpx;
+  height: 80rpx;
+  margin-right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index .db_box .db_item .db_icon .db_img.data-v-57280228 {
+  width: 45rpx;
+  height: 45rpx;
+}
+.index .db_box .db_item .db_content.data-v-57280228 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.index .db_box .db_item .db_content .name.data-v-57280228 {
+  font-size: 36rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.index .db_box .db_item .db_content .bottom.data-v-57280228 {
+  color: #dedede;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index .db_box .db_item .db_content .bottom .dbTable.data-v-57280228 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 46%;
+}
+.index .db_box .db_item .db_set.data-v-57280228 {
+  padding-left: 20rpx;
+  height: 100%;
+}
+.index .db_box .db_item .db_set.data-v-57280228:active {
+  background-color: #1b4747;
+}
+.index .footer.data-v-57280228 {
+  width: 100%;
+  height: 140rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rpx;
+  padding-bottom: 30rpx;
+  border-top: 1px solid #1a4c4c;
+}
+.index .footer .create.data-v-57280228 {
+  background-color: #1c9464;
+  border-radius: 20rpx;
+  text-align: center;
+  padding: 25rpx 0;
+  font-weight: 600;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.index .footer .create.data-v-57280228:active {
+  background-color: #187f56;
+}
+.index .footer .create .icon.data-v-57280228 {
+  margin-right: 10rpx;
+}
+

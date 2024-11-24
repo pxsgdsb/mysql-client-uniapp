@@ -1,0 +1,76 @@
+/*每个页面公共css */
+page {
+  background-color: #143434;
+}
+.hearder {
+  padding: 0rpx 0 35rpx 6rpx;
+  color: #fff;
+  font-size: 45rpx;
+  font-weight: 700;
+  overflow: hidden;
+}
+.px-input {
+  /* border: 1px solid #a7a7a7; */
+  padding: 30rpx;
+  border-radius: 35rpx;
+  color: #fff;
+  background: #24544c;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.px-input .title {
+  font-size: 30rpx;
+  flex: 1;
+  color: #e2e2e2;
+}
+.px-input .uni-input {
+  flex: 2.8;
+  text-align: right;
+}
+.px-input .placeholder {
+  color: #c0c0c0;
+  font-size: 30rpx;
+}
+/* 协议 */
+.protocol {
+  font-size: 14px;
+  color: #9e9e9e;
+  margin: 30px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.protocol .protocol_link {
+  color: #3c9cff;
+}
+.uni-table {
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+.uni-table-th {
+  color: #f3f3f3 !important;
+  border-bottom: 1px #2a6f6f solid !important;
+}
+.uni-table-td {
+  color: #f3f3f3 !important;
+  border-bottom: 1px #2a6f6f solid !important;
+}
+.table--border {
+  border: 1px #2a6f6f solid !important;
+}
+.empty-border {
+  border-right: 1px #2a6f6f solid !important;
+}
+.uni-pagination__btn {
+  padding: 3rpx 45rpx !important;
+  background-color: #2a6f6f !important;
+}
+.uni-pagination__btn text {
+  color: #fff !important;
+}
+.current-index-text {
+  color: #2a6f6f !important;
+}
+
